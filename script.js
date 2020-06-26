@@ -16,7 +16,7 @@ var scratchblocks=function(){'use strict';var O=Math.min,v=Math.max;function e(e
 
 function getSVG(code) {
   let svg = scratchblocks.render(
-    scratchblocks.parse("move (10) steps",{
+    scratchblocks.parse(code, {
       style:     'scratch3',   // Optional, defaults to 'scratch2'.
       languages: ['en'], // Optional, defaults to ['en'].
     }),
